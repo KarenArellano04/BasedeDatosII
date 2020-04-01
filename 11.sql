@@ -1,4 +1,4 @@
-/*11.1*/
+
 drop table if exists medicamentos;
 
  create table medicamentos(
@@ -9,7 +9,7 @@ drop table if exists medicamentos;
   cantidad integer not null
  );
 
- select table_name as "Nombre de la tabla",column_name as "Nombre de la columna",udt_name as "Tipos de datos",character_maximum_length as "Tamaño maximo del campo" ,is_nullable as "Se permite valor nulo ?" 
+ select table_name as "Nombre de la tabla",column_name as "Nombre de la columna",udt_name as "Tipos de datos",character_maximum_length as "TamaÃ±o maximo del campo" ,is_nullable as "Se permite valor nulo ?" 
   from information_schema.columns 
   where table_name =  'medicamentos';
 
@@ -71,7 +71,7 @@ drop table if exists medicamentos;
   duracion int
  );
 
- select table_name as "Nombre de la tabla",column_name as "Nombre de la columna",udt_name as "Tipos de datos",character_maximum_length as "Tamaño maximo del campo" ,is_nullable as "Se permite valor nulo ?" 
+ select table_name as "Nombre de la tabla",column_name as "Nombre de la columna",udt_name as "Tipos de datos",character_maximum_length as "TamaÃ±o maximo del campo" ,is_nullable as "Se permite valor nulo ?" 
   from information_schema.columns 
   where table_name = 'peliculas';
 
